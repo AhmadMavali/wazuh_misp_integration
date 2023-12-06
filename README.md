@@ -1,3 +1,18 @@
+
+Follow the steps below to use this feature
+
+
+Create a key in the MISP server and paste (key and IP_SERVER) into the below script (lines 35 and 37) 
+Copy the misp.py file in the path below
+/var/ossec/integrations/
+
+Create a rule in Wazuh named misp.xml and copy the contents of the misp.xml file there.
+
+
+
+#Description 
+
+
 Wazuh is an open-source security monitoring and threat detection platform. It provides host-based intrusion detection, log analysis, file integrity monitoring, and vulnerability assessment capabilities. Wazuh helps organizations detect and respond to security incidents by collecting, analyzing, and correlating security-related data from various sources.
 
 MISP (Malware Information Sharing Platform) is an open-source threat intelligence platform that enables organizations to collect, share, and collaborate on threat intelligence information. It allows the exchange of Indicators of Compromise (IOCs), threat intelligence reports, and other security-related data.
@@ -13,3 +28,9 @@ Correlation and Analysis: Wazuh can correlate security events with threat intell
 Incident Response: The integration enables security teams to streamline their incident response processes. When Wazuh detects a security incident, it can automatically query MISP for additional information about the associated IOCs, aiding in the investigation and remediation of the incident.
 
 By integrating Wazuh with MISP, organizations can benefit from the collective knowledge and intelligence shared within the MISP community. This collaboration enhances the detection capabilities of Wazuh and enables more effective threat hunting, incident response, and mitigation of security threats.
+
+
+
+
+
+
